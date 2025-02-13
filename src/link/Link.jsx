@@ -4,10 +4,12 @@ const Link = ({route}) => {
 
     const {name, path} = route;
     return (
-        
-             <li > 
+     
+            
+            <li  className="hover:bg-amber-700 p-2"> 
                 <a href={path}> {name} </a>
                 </li>
+       
            
             
     );
